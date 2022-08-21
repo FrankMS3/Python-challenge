@@ -45,7 +45,7 @@ print("Average Change: $" + str(avg))
 print("Greatest Increase in Profits: " + str(max_date) + " ($" + str(maximum) + ")")
 print("Greatest Decrease in Profits: " + str(min_date) + " ($" + str(minimum) + ")")
 
-# Setting working directory again
+# Setting new directory
 os.chdir(os.path.dirname(__file__))
 new_file = os.path.join('Analysis', 'Analysis.txt')
 
