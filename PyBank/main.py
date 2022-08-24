@@ -46,8 +46,7 @@ print("Greatest Increase in Profits: " + str(max_date) + " ($" + str(maximum) + 
 print("Greatest Decrease in Profits: " + str(min_date) + " ($" + str(minimum) + ")")
 
 # Setting new directory
-os.chdir(os.path.dirname(__file__))
-new_file = os.path.join('Analysis', 'Analysis.txt')
+new_file = os.path.join('Analysis', 'PyBank Analysis.txt')
 
 # Creating a text file with the results
 with open(new_file, 'w') as file:
